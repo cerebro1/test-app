@@ -7,7 +7,7 @@ app = Flask(__name__)
 def show_date():
     # Get today's date
     today = datetime.now().strftime('%Y-%m-%d')
-    return f"<h1>Hi Sonali! Today's Date: {today}</h1>"
+    return f"<h1>Hi Sonali! Today's Date: {today}. Welcome!</h1>"
 
 if __name__ == '__main__':
     app.run(debug=True)
